@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+@layer base {
+  html {
+    font-family: 'Courier New', Courier, monospace;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-gray-950 text-gray-200;
+    background-image: 
+      linear-gradient(90deg, rgba(22, 163, 74, 0.02) 1px, transparent 1px),
+      linear-gradient(0deg, rgba(22, 163, 74, 0.02) 1px, transparent 1px),
+      radial-gradient(circle at 50% 0%, rgba(22, 163, 74, 0.03) 0%, transparent 50%),
+      radial-gradient(circle at 0% 50%, rgba(22, 163, 74, 0.02) 0%, transparent 50%);
+    background-size: 20px 20px, 20px 20px, 100% 100%, 100% 100%;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-900/50 backdrop-blur-sm;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-b from-green-600/80 to-green-800/80 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply from-green-500/80 to-green-700/80;
+}
+
+/* Animations */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.animate-blink {
+  animation: blink 1s infinite;
+}
+
+/* Terminal text effect */
+.terminal-text::after {
+  content: "_";
+  display: inline-block;
+  animation: blink 1s infinite;
+}
+
+/* Custom selection color */
+::selection {
+  @apply bg-green-500/30 text-white;
+}
+
+/* Smooth hover transitions */
+a, button {
+  @apply transition-all duration-300;
+}
+
+/* Custom focus styles */
+button:focus, a:focus, input:focus, textarea:focus {
+  @apply outline-none ring-2 ring-green-500/50 ring-opacity-50;
+}
+
+/* Section transitions */
+section {
+  @apply transition-all duration-500;
+}
+
+/* Custom aspect ratio for project cards */
+.aspect-w-16 {
+  position: relative;
+  padding-bottom: calc(9 / 16 * 100%);
+}
+
+.aspect-w-16 > * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* Glass effect */
+.glass-effect {
+  @apply backdrop-blur-lg bg-gray-900/40 border border-gray-800/50;
+  position: relative;
+}
+
+.glass-effect::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  background: linear-gradient(90deg, transparent, rgba(22, 163, 74, 0.1), transparent);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: xor;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
+
+/* Glow effects */
+.glow-sm {
+  box-shadow: 0 0 15px rgba(22, 163, 74, 0.15);
+}
+
+.glow-md {
+  box-shadow: 0 0 25px rgba(22, 163, 74, 0.2);
+}
+
+.glow-lg {
+  box-shadow: 0 0 35px rgba(22, 163, 74, 0.25);
+}
+
+/* Circuit board pattern */
+.circuit-pattern {
+  background-image: 
+    radial-gradient(circle at 100% 100%, transparent 9px, rgba(22, 163, 74, 0.05) 10px, transparent 11px),
+    linear-gradient(to right, rgba(22, 163, 74, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(22, 163, 74, 0.03) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
