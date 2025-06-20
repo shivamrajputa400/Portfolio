@@ -77,8 +77,7 @@ npm run dev
 ---
 
 ## 📸 Preview
-
-![Screenshot from 2025-06-10 04-20-55](https://github.com/user-attachments/assets/fcc30172-8402-441c-80b5-df35be15b103)
+![Screenshot from 2025-06-21 01-34-45](https://github.com/user-attachments/assets/fe32b22c-b275-4f79-8990-9beae7e81e8c)
 
 ---
 
