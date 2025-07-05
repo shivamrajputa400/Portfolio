@@ -57,6 +57,12 @@ export const Hero = () => {
               >
                 Contact Me
               </a>
+               <a 
+                href="https://kali-terminal.netlify.app/" 
+                className="px-6 py-3 rounded-md bg-gray-800 hover:bg-gray-700 text-white font-medium transition-colors duration-200"
+              >
+                Terminal~
+              </a>
             </div>
           </div>
         </div>
