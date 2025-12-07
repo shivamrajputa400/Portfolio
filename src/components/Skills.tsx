@@ -66,7 +66,7 @@ export const Skills = () => {
         { name: 'c/c++', level: 90, category: 'Languages' },
         { name: 'Python', level: 85, category: 'Languages' },
         { name: 'JAVA', level: 80, category: 'Languages' },
-        { name: 'C#', level: 40, category: 'Languages' },
+        { name: 'Shell Script', level: 40, category: 'Languages' },
       ],
     },
     {
