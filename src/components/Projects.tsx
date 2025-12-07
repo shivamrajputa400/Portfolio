@@ -41,7 +41,7 @@ const projectPhotos: Photo[] = [
     id: '3',
     src: 'https://images.pexels.com/photos/163100/circuit-circuit-board-resistor-computer-163100.jpeg?auto=compress&cs=tinysrgb&w=800',
     alt: 'Embedded System Project',
-    title: 'IoT Weather Station',
+    title: 'MAgro',
     category: 'embedded',
     description: 'Arduino-based weather monitoring system',
     tags: ['arduino', 'c++', 'sensors', 'iot'],
