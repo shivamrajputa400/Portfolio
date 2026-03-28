@@ -17,14 +17,12 @@ export const About = () => {
           </div>
           
           <p className="text-gray-400 mb-6">
-           I am a focused embedded systems programmer specializing in low-level development with C/C++. I design efficient, reliable firmware for microcontrollers and embedded platforms, integrating hardware interfaces, real-time constraints, and peripheral drivers. With working knowledge of system-level software, communication protocols, and embedded toolchains, I deliver robust solutions bridging hardware and software with precision and control.
-          </p>
+           I started my journey in tech with Python and web development, building a strong foundation in programming, problem-solving, and creating user-focused applications. Over time, I expanded into system-level concepts, working with Linux, networking, and scripting, which gradually shifted my interest toward cybersecurity. I explored real-world vulnerabilities through platforms like PortSwigger Web Security Academy and DVWA, gaining hands-on experience with tools such as Burp Suite, Nmap, and Metasploit. During my internship at DRDO, I worked on attack–defense simulations, cryptanalysis concepts, and web application security, strengthening my understanding of how systems are attacked and secured.
+
           
           <p className="text-gray-400 mb-6">
-          Cyber Security enthusiast with hands-on experience in Web Application Penetration Testing (OWASP Top 10), 
-Burp Suite, and security labs (PortSwigger, DVWA). Completed a Cyber Security internship at DRDO with 
-practical exposure to vulnerability assessment, Linux security tooling, and network security concepts. 
-Currently expanding into Cloud Security (AWS, IAM, Hybrid Multi-Cloud) and exploring AI Security fundamentals.
+          
+Alongside learning, I have built practical projects like a Docker-based honeypot to capture and analyze attacker behavior, combining development, DevOps, and security skills. I have also participated in cybersecurity competitions such as TCS HackQuest and C3iHub CTF, continuously improving through hands-on practice. Currently, I am expanding into cloud security (AWS, IAM, hybrid multi-cloud environments) and exploring AI security concepts. My approach is simple—learn by doing, build real systems, and continuously evolve with the changing cybersecurity landscape.
           </p>
           
           <div className="grid grid-cols-2 gap-4 mb-6">
