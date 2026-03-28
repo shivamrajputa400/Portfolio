@@ -80,6 +80,12 @@ Alongside learning, I have built practical projects like a Docker-based honeypot
                     period: '2023 - 2025', 
                     description: 'Developed responsive websites and applications for various clients across different industries.' 
                   },
+                  { 
+                    position: 'Cyber Security Intern', 
+                    company: 'Grootz', 
+                    period: 'July - Aug :2025', 
+                    description: 'Implementation of Cybersecurity attacks/principles in Web application using Penetrating Techniques.' 
+                  },
                  
                 ].map((job, index) => (
                   <div key={index} className="border-l-2 border-green-500 pl-4">
