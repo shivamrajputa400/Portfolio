@@ -21,19 +21,20 @@ export const About = () => {
           </p>
           
           <p className="text-gray-400 mb-6">
-            My journey in web development started back in 2020 with Python as my first language, and since then, I've continuously
-            expanded my skill set to keep up with the rapidly evolving tech landscape. I believe in
-            writing clean, maintainable code and creating intuitive user experiences.
+          Cyber Security enthusiast with hands-on experience in Web Application Penetration Testing (OWASP Top 10), 
+Burp Suite, and security labs (PortSwigger, DVWA). Completed a Cyber Security internship at DRDO with 
+practical exposure to vulnerability assessment, Linux security tooling, and network security concepts. 
+Currently expanding into Cloud Security (AWS, IAM, Hybrid Multi-Cloud) and exploring AI Security fundamentals.
           </p>
           
           <div className="grid grid-cols-2 gap-4 mb-6">
             <div className="flex items-center">
               <Calendar size={18} className="text-green-400 mr-2" />
-              <span className="text-gray-300">Born: 18 october 2004</span>
+              <span className="text-gray-300">Born:2004</span>
             </div>
             <div className="flex items-center">
               <MapPin size={18} className="text-green-400 mr-2" />
-              <span className="text-gray-300">Location: delhi(NCR),india</span>
+              <span className="text-gray-300">Location: Delhi(NCR),india</span>
             </div>
             <div className="flex items-center">
               <Award size={18} className="text-green-400 mr-2" />
@@ -120,10 +121,10 @@ export const About = () => {
       
       <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6">
         {[
-          { icon: <Coffee size={24} />, count: '50+', label: 'Coffee Cups' },
-          { icon: <Award size={24} />, count: '6+', label: 'Certifications' },
-          { icon: <BookOpen size={24} />, count: '5+', label: 'Projects Completed' },
-          { icon: <User size={24} />, count: '1K+', label: 'Connections' },
+          { icon: <Coffee size={24} />, count: '200+', label: 'Coffee Cups' },
+          { icon: <Award size={24} />, count: '15+', label: 'Certifications' },
+          { icon: <BookOpen size={24} />, count: '10+', label: 'Projects Completed' },
+          { icon: <User size={24} />, count: '2K+', label: 'Connections' },
         ].map((stat, index) => (
           <div 
             key={index} 
