@@ -38,7 +38,9 @@ export const Hero = () => {
                 <span className="animate-pulse inline-block h-5 w-2 ml-1 bg-green-400"></span>
               </span>
             </div>
-            
+            <p className="text-gray-400 max-w-lg">
+            Cyber Security | VAPT | Web Security | Red Teaming | Network Security | Cloud Security | IAM | DevSecOps | Automation & Scripting | Embedded Systems | Low-Level Programming | System Programming | AI Security | Threat Analysis 
+            </p> 
             <p className="text-gray-400 max-w-lg">
               I build exceptional digital experiences with a focus on performance, 
               accessibility, and cutting-edge technologies. Let's create something amazing together.
@@ -131,9 +133,9 @@ export const Hero = () => {
                   <span className="text-gray-500 mr-4">1</span>
                   <span className="text-gray-300 ml-4">skills:</span>
                   <span className="text-blue-400 ml-2">[</span>
-                  <span className="text-green-400">'C++'</span>
+                  <span className="text-green-400">'C++ ,Python'</span>
                   <span className="text-gray-300">,</span>
-                  <span className="text-green-400">'Cyber Security | VAPT | Web Security | Red Teaming | Network Security | Cloud Security | IAM | DevSecOps | Automation & Scripting | Embedded Systems | Low-Level Programming | System Programming | AI Security Fundamentals | Threat Analysis | Networking Fundamentals '</span>
+                  <span className="text-green-400">'Cyber Security'</span>
                   <span className="text-gray-300">,</span>
                   <span className="text-green-400">'DATABASE'</span>
                   <span className="text-blue-400">]</span>
