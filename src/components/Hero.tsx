@@ -5,7 +5,7 @@ import { ChevronDown, Terminal, Code, GitBranch } from 'lucide-react';
 export const Hero = () => {
   const [text, setText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
-  const fullText = 'Software Developer & Embedded Designer';
+  const fullText = 'Software Developer & DevSecOps';
   
   useEffect(() => {
     if (currentIndex < fullText.length) {
@@ -25,7 +25,7 @@ export const Hero = () => {
           <div className="space-y-6">
             <div className="inline-flex items-center px-3 py-1 rounded-full bg-gray-800/50 border border-gray-700">
               <Terminal size={14} className="text-green-400 mr-2" />
-              <span className="text-xs text-gray-300">Welcome to my portfolio</span>
+              <span className="text-xs text-gray-300">Welcome</span>
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
