@@ -133,7 +133,7 @@ export const Hero = () => {
                   <span className="text-blue-400 ml-2">[</span>
                   <span className="text-green-400">'C++'</span>
                   <span className="text-gray-300">,</span>
-                  <span className="text-green-400">'Embedded'</span>
+                  <span className="text-green-400">'Cyber Security | VAPT | Web Security | Red Teaming | Network Security | Cloud Security | IAM | DevSecOps | Automation & Scripting | Embedded Systems | Low-Level Programming | System Programming | AI Security Fundamentals | Threat Analysis | Networking Fundamentals '</span>
                   <span className="text-gray-300">,</span>
                   <span className="text-green-400">'DATABASE'</span>
                   <span className="text-blue-400">]</span>
