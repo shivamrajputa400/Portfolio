@@ -77,7 +77,7 @@ Alongside learning, I have built practical projects like a Docker-based honeypot
                   { 
                     position: 'founder', 
                     company: 'Grootz', 
-                    period: '2023 - 2025', 
+                    period: '2024 - 2025', 
                     description: 'Developed responsive websites and applications for various clients across different industries.' 
                   },
                   { 
