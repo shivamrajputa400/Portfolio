@@ -128,7 +128,7 @@ export const Hero = () => {
                   <span className="text-gray-300">,</span>
                 </div>
                 <div className="flex">
-                  <span className="text-gray-500 mr-4">3</span>
+                  <span className="text-gray-500 mr-4">1</span>
                   <span className="text-gray-300 ml-4">skills:</span>
                   <span className="text-blue-400 ml-2">[</span>
                   <span className="text-green-400">'C++'</span>
