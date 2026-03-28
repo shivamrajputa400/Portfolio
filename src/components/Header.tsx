@@ -52,13 +52,7 @@ export const Header = () => {
                 {link.name}
               </a>
             ))}
-            <button
-              onClick={toggleDarkMode}
-              className="p-2 rounded-full hover:bg-gray-800 transition-colors duration-200"
-              aria-label="Toggle dark mode"
-            >
-              {darkMode ? <Sun size={20} className="text-yellow-400" /> : <Moon size={20} className="text-blue-400" />}
-            </button>
+          
           </div>
           
           <div className="flex md:hidden">
