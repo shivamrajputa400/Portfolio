@@ -46,26 +46,7 @@ export const Hero = () => {
               accessibility, and cutting-edge technologies. Let's create something amazing together.
             </p>
             
-            <div className="flex flex-wrap gap-4 pt-4">
-              <a 
-                href="#projects" 
-                className="px-6 py-3 rounded-md bg-green-600 hover:bg-green-700 text-white font-medium transition-colors duration-200"
-              >
-                View My Work
-              </a>
-              <a 
-                href="#contact" 
-                className="px-6 py-3 rounded-md bg-gray-800 hover:bg-gray-700 text-white font-medium transition-colors duration-200"
-              >
-                Contact Me
-              </a>
-               <a 
-                href="https://kali-terminal.netlify.app/" 
-                className="px-6 py-3 rounded-md bg-gray-800 hover:bg-gray-700 text-white font-medium transition-colors duration-200"
-              >
-                Terminal~
-              </a>
-            </div>
+      
           </div>
         </div>
         
@@ -162,6 +143,26 @@ export const Hero = () => {
                   <span className="text-gray-500 mr-4">6</span>
                   <span className="text-gray-300">{'}'}</span>
                 </div>
+                 <div className="flex flex-wrap gap-4 pt-4">
+              <a 
+                href="#projects" 
+                className="px-6 py-3 rounded-md bg-green-600 hover:bg-green-700 text-white font-medium transition-colors duration-200"
+              >
+                View My Work
+              </a>
+              <a 
+                href="#contact" 
+                className="px-6 py-3 rounded-md bg-gray-800 hover:bg-gray-700 text-white font-medium transition-colors duration-200"
+              >
+                Contact Me
+              </a>
+               <a 
+                href="https://kali-terminal.netlify.app/" 
+                className="px-6 py-3 rounded-md bg-gray-800 hover:bg-gray-700 text-white font-medium transition-colors duration-200"
+              >
+                Terminal~
+              </a>
+            </div>
               </div>
             </div>
           </div>
