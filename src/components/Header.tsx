@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Moon, Sun, Github, Linkedin, Twitter } from 'lucide-react';
+import { Menu, X, Github, Linkedin, Twitter } from 'lucide-react';
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +20,6 @@ export const Header = () => {
   }, []);
 
   const toggleMenu = () => setIsOpen(!isOpen);
-  const toggleDarkMode = () => setDarkMode(!darkMode);
 
   const navLinks = [
     { name: 'Home', href: '#home' },
