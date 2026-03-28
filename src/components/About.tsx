@@ -18,7 +18,7 @@ export const About = () => {
           
           <p className="text-gray-400 mb-6">
            I started my journey in tech with Python and web development,building a strong foundation in programming, problem-solving, and creating user-focused applications. Over time, I expanded into system-level concepts, working with Linux, networking, and scripting, which gradually shifted my interest toward cybersecurity. I explored real-world vulnerabilities through platforms like PortSwigger Web Security Academy and DVWA, gaining hands-on experience with tools such as Burp Suite, Nmap, and Metasploit. During my internship at DRDO, I worked on attack–defense simulations, cryptanalysis concepts, and web application security, strengthening my understanding of how systems are attacked and secured.
-
+          </p>
           
           <p className="text-gray-400 mb-6">
           
