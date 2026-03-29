@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Server, Database, Palette, Globe, Cpu } from 'lucide-react';
+import { Code, Server, Database, Palette, Globe, Cpu, Shield } from 'lucide-react';
 
 type Skill = {
   name: string;
@@ -51,7 +51,7 @@ export const Skills = () => {
     },
     {
       name: 'SecOps',
-      icon: <Server size={15} className="text-green-400" />,
+      icon: <Shield size={15} className="text-green-400" />,
       skills: [
         { name: 'Web Security', level: 80, category: 'SecOps' },
         { name: 'Ai Security', level: 40, category: 'SecOps' },
