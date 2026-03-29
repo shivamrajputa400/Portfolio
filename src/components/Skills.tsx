@@ -17,11 +17,10 @@ export const Skills = () => {
   const skillCategories: SkillCategory[] = [
     {
       name: 'Systems & Embedded',
-      icon: <Cpu size={24} className="text-purple-400" />,
+      icon: <Cpu size={15} className="text-purple-400" />,
       skills: [
         { name: 'C++', level: 90, category: 'systems' },
         { name: 'Embedded Systems', level: 85, category: 'systems' },
-        { name: 'Code Optimization', level: 88, category: 'systems' },
         { name: 'Microcontrollers', level: 80, category: 'systems' },
         { name: 'OS/RTOS (FreeRTOS, Zephyr)', level: 85, category: 'systems' },
         { name: 'Low-level Debugging', level: 85, category: 'systems' },
@@ -30,7 +29,7 @@ export const Skills = () => {
 
     {
       name: 'Frontend',
-      icon: <Code size={24} className="text-blue-400" />,
+      icon: <Code size={15} className="text-blue-400" />,
       skills: [
         { name: 'React', level: 30, category: 'frontend' },
         { name: 'TypeScript', level: 40, category: 'frontend' },
@@ -41,27 +40,29 @@ export const Skills = () => {
     },
     {
       name: 'DevOps',
-      icon: <Server size={24} className="text-green-400" />,
+      icon: <Server size={15} className="text-green-400" />,
       skills: [
         { name: 'Docker', level: 70, category: 'DevOps' },
         { name: 'CI/CD', level: 40, category: 'DevOps' },
         { name: 'Nginx', level: 55, category: 'DevOps' },
-        { name: 'Cloud', level: 40, category: 'DevOps' },
+        { name: 'Cloud', level: 30, category: 'DevOps' },
+        { name: 'Automation', level: 70, category: 'DevOps' },
       ],
     },
     {
       name: 'SecOps',
-      icon: <Server size={24} className="text-green-400" />,
+      icon: <Server size={15} className="text-green-400" />,
       skills: [
-        { name: 'Web Security', level: 70, category: 'SecOps' },
+        { name: 'Web Security', level: 80, category: 'SecOps' },
         { name: 'Ai Security', level: 40, category: 'SecOps' },
         { name: 'Cloud Security', level: 55, category: 'SecOps' },
         { name: 'System Security', level: 40, category: 'SecOps' },
+        { name: 'Network Security', level: 40, category: 'SecOps' },
       ],
     },
     {
       name: 'Database',
-      icon: <Database size={24} className="text-yellow-400" />,
+      icon: <Database size={15} className="text-yellow-400" />,
       skills: [
         { name: 'PostgreSQL', level: 80, category: 'database' },
         { name: 'Firebase', level: 75, category: 'database' },
@@ -70,7 +71,7 @@ export const Skills = () => {
     },
     {
       name: 'Languages',
-      icon: <Palette size={24} className="text-purple-400" />,
+      icon: <Palette size={15} className="text-purple-400" />,
       skills: [
         { name: 'c/c++', level: 90, category: 'Languages' },
         { name: 'Python', level: 85, category: 'Languages' },
@@ -80,7 +81,7 @@ export const Skills = () => {
     },
     {
       name: 'Systems',
-      icon: <Globe size={24} className="text-red-400" />,
+      icon: <Globe size={15} className="text-red-400" />,
       skills: [
         { name: 'Git', level: 90, category: 'Systems' },
         { name: 'Networking', level: 75, category: 'Systems' },
