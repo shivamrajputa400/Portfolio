@@ -4,7 +4,7 @@ import { Code, Server, Database, Palette, Globe, Cpu } from 'lucide-react';
 type Skill = {
   name: string;
   level: number;
-  category: 'frontend' | 'backend' | 'database' | 'Languages' |'systems'| 'other';
+  category:  'Languages' | 'frontend' | 'DevOps' | 'SecOps'| 'database' | 'systems';
 };
 
 type SkillCategory = {
@@ -22,8 +22,8 @@ export const Skills = () => {
         { name: 'C++', level: 90, category: 'systems' },
         { name: 'Embedded Systems', level: 85, category: 'systems' },
         { name: 'Code Optimization', level: 88, category: 'systems' },
-        { name: 'Microcontrollers (ARM, AVR, etc.)', level: 80, category: 'systems' },
-        { name: 'OS/RTOS (FreeRTOS, Zephyr)', level: 75, category: 'systems' },
+        { name: 'Microcontrollers', level: 80, category: 'systems' },
+        { name: 'OS/RTOS (FreeRTOS, Zephyr)', level: 85, category: 'systems' },
         { name: 'Low-level Debugging', level: 85, category: 'systems' },
       ],
     },
@@ -40,20 +40,29 @@ export const Skills = () => {
       ],
     },
     {
-      name: 'Backend',
+      name: 'DevOps',
       icon: <Server size={24} className="text-green-400" />,
       skills: [
-        { name: 'Node.js', level: 70, category: 'backend' },
-        { name: 'Express', level: 70, category: 'backend' },
-        { name: 'Python', level: 75, category: 'backend' },
-        { name: 'GraphQL', level: 70, category: 'backend' },
+        { name: 'Docker', level: 70, category: 'DevOps' },
+        { name: 'CI/CD', level: 40, category: 'DevOps' },
+        { name: 'Nginx', level: 55, category: 'DevOps' },
+        { name: 'Cloud', level: 40, category: 'DevOps' },
+      ],
+    },
+    {
+      name: 'SecOps',
+      icon: <Server size={24} className="text-green-400" />,
+      skills: [
+        { name: 'Web Security', level: 70, category: 'SecOps' },
+        { name: 'Ai Security', level: 40, category: 'SecOps' },
+        { name: 'Cloud Security', level: 55, category: 'SecOps' },
+        { name: 'System Security', level: 40, category: 'SecOps' },
       ],
     },
     {
       name: 'Database',
       icon: <Database size={24} className="text-yellow-400" />,
       skills: [
-        { name: 'MongoDB', level: 85, category: 'database' },
         { name: 'PostgreSQL', level: 80, category: 'database' },
         { name: 'Firebase', level: 75, category: 'database' },
         { name: 'SQL', level: 65, category: 'database' },
@@ -70,13 +79,16 @@ export const Skills = () => {
       ],
     },
     {
-      name: 'Other',
+      name: 'Systems',
       icon: <Globe size={24} className="text-red-400" />,
       skills: [
-        { name: 'Git', level: 90, category: 'other' },
-        { name: 'Networking', level: 75, category: 'other' },
-        { name: 'BLINK', level: 70, category: 'other' },
-        { name: 'linex', level: 65, category: 'other' },
+        { name: 'Git', level: 90, category: 'Systems' },
+        { name: 'Networking', level: 75, category: 'Systems' },
+        { name: 'BLINK', level: 70, category: 'Systems' },
+        { name: 'linex', level: 75, category: 'Systems' },
+        { name: 'Vim/Nano', level: 65, category: 'Systems' },
+        { name: 'Bash', level: 85, category: 'Systems' },
+        { name: 'Terminal', level: 65, category: 'Systems' },
       ],
     },
   ];
